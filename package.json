@@ -1,9 +1,9 @@
 {
-  "name": "ngrx-normalizr",
-  "version": "2.3.1",
+  "name": "@gi/ngrx-normalizr",
+  "version": "3.0.0",
   "description": "Normalizing state reducer for ngrx applications",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "scripts": {
     "watch": "./node_modules/.bin/karma start",
     "prepublishOnly": "yarn aot",
