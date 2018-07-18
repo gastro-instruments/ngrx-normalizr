@@ -1,6 +1,6 @@
 # ngrx-normalizr
 
-[![Build Status](https://travis-ci.org/michaelkrone/ngrx-normalizr.svg?branch=master)](https://travis-ci.org/michaelkrone/ngrx-normalizr)
+[![Build Status](https://travis-ci.org/gastro-instruments/ngrx-normalizr.svg?branch=%40gi-3.x.x)](https://travis-ci.org/gastro-instruments/ngrx-normalizr)
 ![AOT compatible](https://img.shields.io/badge/aot-compatible-blue.svg)
 
 > Managing [normalized state](https://redux.js.org/docs/recipes/reducers/NormalizingStateShape.html) in [ngrx](https://github.com/ngrx/platform) applications, transparently.
@@ -9,13 +9,11 @@ This package provides a set of actions, reducers and selectors for handling norm
 *ngrx-normalizr* uses [normalizr](https://github.com/paularmstrong/normalizr) for [normalizing](https://github.com/paularmstrong/normalizr/blob/master/docs/api.md#normalizedata-schema) and [denormalizing](https://github.com/paularmstrong/normalizr/blob/master/docs/api.md#denormalizeinput-schema-entities) data. All normalization and denormalization
 is defined by the use of [normalizr schemas](https://github.com/paularmstrong/normalizr/blob/master/docs/api.md#schema), since that's the way normalizr works. This enables selectors to use a transparent and powerful projection of state data.
 
-> Releases will be published from the [`master`](https://github.com/michaelkrone/ngrx-normalizr/tree/master) branch. [Go there](https://github.com/michaelkrone/ngrx-normalizr/tree/master) for documentation that aligns with the npm repo version.
-
 ## Installation
 To install this package:
 ```sh
-yarn add ngrx-normalizr
-npm i ngrx-normalizr
+yarn add @gi/ngrx-normalizr
+npm i @gi/ngrx-normalizr
 ```
 
 ### Peer dependencies
